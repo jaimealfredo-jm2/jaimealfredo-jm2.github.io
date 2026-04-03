@@ -1,1 +1,10 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
 
+h1 {
+    color: gold;
+    text-align: center;
+}
