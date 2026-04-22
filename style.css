@@ -1,10 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-font-family: Arial;
-margin: 0;
+font-family: 
+System-ui,
+-apple-system,
+sans-serif;
+line-height: 1.6;
 background-color: #0d1117;
 color: white;
 }
 
+/* Navbar */
+.navbar {
+  background-color: #333;
+  color:#fff;
+  padding: 1rem 0;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weigth: bold;
+}
+
+.menu-toggle {
+  display: none;
+  flex-directon: column;
+  gap: 4px
+  background: none;
+  border: none;
+  cursor: ponter;
+  padding: 4px
+}
+/* Menú Navegador */
+.menu-toggle span{
+  width: 25px;
+  heigth: 3px;
+  background-color: #fff;
+  display: block;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav- menu a{
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.nav-menu a:hover{
+  color: #4CAF50;
+}
+
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Media Qwerty para móviles*/
+@media (max-width: 768px){
+  .menu-toggle {
+    display: felx;
+  }
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    flex-direction: column;
+    gap: 0;
+    display: none;
+  }
+  .nav-menu.active {
+    display: flex;
+  }
+  .nav.menu li{
+    border-top: 1px solid #444;
+  }
+  .nav-menu a {
+    display: block;
+    padding: 1rem;
+  }
+  .navbar {
+    position: relative;
+  }
+}
+
+/*Resto de la landding page */
 header {
 background-color: #161b22;
 padding: 20px;
