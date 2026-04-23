@@ -4,14 +4,19 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+
 body {
 font-family: 
 System-ui,
 -apple-system,
 sans-serif;
 line-height: 1.6;
-background-color: #0d1117;
-color: white;
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+min-height: 100vh;
 }
 
 /* Navbar */
@@ -58,7 +63,7 @@ color: white;
   gap: 2rem;
 }
 
-.nav- menu a{
+.nav-menu a{
   color: #fff;
   text-decoration: none;
   padding: 0.5rem;
@@ -111,7 +116,45 @@ padding: 20px;
 text-align: center;
 }
 
+.header {
+position: fixed;
+top: 25px;
+left: 0;
+right: 0;
+z-index: 1000;
+padding: 0px 25px;
+}
+
+.navLinks {
+  color: rgba(255, 255,255, 0.95);
+  text-dectoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2,1);
+  position: relative;
+  overflow: hidden;
+}
+
+.navLinks:hover::before {
+  left: 100%;
+}
+
+.navLinks:hover {
+  color: #fff
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
 section {
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items:center;
+font-size: 45px;
+font-weight: 600;
+color: #fff;
 padding: 40px;
 }
 
