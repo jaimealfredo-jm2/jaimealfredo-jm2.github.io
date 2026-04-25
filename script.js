@@ -1,4 +1,4 @@
-const menuToggle =document.querySelector(".menu-toggle");
+const menuToggle = document.querySelector(".menu-toggle");
 const navMenu = document.querySelector(".nav-menu");
 //Abrir y cerrar el menú
 menuToggle.addEventListener("click", () => {
