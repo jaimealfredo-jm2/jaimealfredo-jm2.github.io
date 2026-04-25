@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background:  linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 html{
@@ -83,7 +82,7 @@ main {
 /* Media Qwerty para móviles*/
 @media (max-width: 768px){
   .menu-toggle {
-    display: felx;
+    display: flex;
   }
   
   .nav-menu {
@@ -117,7 +116,7 @@ main {
 
 /*Resto de la landding page */
 header {
-background-color: #466eab;
+background-color: #333;
 padding: 20px;
 text-align: center;
 }
