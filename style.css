@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  backgrond:  linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background:  linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 html{
@@ -43,11 +43,11 @@ min-height: 100vh;
 
 .menu-toggle {
   display: none;
-  flex-directon: column;
+  flex-direction: column;
   gap: 4px
   background: none;
   border: none;
-  cursor: ponter;
+  cursor: pointer;
   padding: 4px
 }
 /* Menú Navegador */
@@ -64,13 +64,13 @@ min-height: 100vh;
   gap: 2rem;
 }
 
-.nav-menu a{
+.nav-menu a {
   color: #fff;
   text-decoration: none;
   padding: 0.5rem;
 }
 
-.nav-menu a:hover{
+.nav-menu a:hover {
   color: #4CAF50;
 }
 
@@ -85,6 +85,7 @@ main {
   .menu-toggle {
     display: felx;
   }
+  
   .nav-menu {
     position: absolute;
     top: 100%;
@@ -95,16 +96,20 @@ main {
     gap: 0;
     display: none;
   }
+  
   .nav-menu.active {
     display: flex;
   }
-  .nav.menu li{
+  
+  .nav.menu li {
     border-top: 1px solid #444;
   }
+  
   .nav-menu a {
     display: block;
     padding: 1rem;
   }
+  
   .navbar {
     position: relative;
   }
@@ -148,8 +153,9 @@ padding: 0px 25px;
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
+
 section {
-height: 100vh;
+height: auto;
 display: flex;
 justify-content: center;
 align-items:center;
