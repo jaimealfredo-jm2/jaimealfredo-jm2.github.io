@@ -43,11 +43,11 @@ min-height: 100vh;
 .menu-toggle {
   display: none;
   flex-direction: column;
-  gap: 4px
+  gap: 4px;
   background: none;
   border: none;
   cursor: pointer;
-  padding: 4px
+  padding: 4px;
 }
 /* Menú Navegador */
 .menu-toggle span{
@@ -147,7 +147,7 @@ padding: 0px 25px;
 }
 
 .navLinks:hover {
-  color: #fff
+  color: #fff;
   background: rgba(255, 255, 255, 0.25);
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
