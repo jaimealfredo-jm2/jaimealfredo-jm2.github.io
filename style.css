@@ -18,6 +18,13 @@ line-height: 1.6;
 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 min-height: 100vh;
 }
+
+main{
+    max-width: 800px;
+    padding: 2rem;
+    margin: 0 auto;
+    opacity: 0;
+}
 /*Intro Animation*/
 .preloader{
     position: fixed;
@@ -88,11 +95,11 @@ min-height: 100vh;
   color: #4CAF50;
 }
 
-main {
+/*main {
   max-width: 1200px;
   margin: 2rem auto;
   padding: 0 1rem;
-}
+}*/
 
 /* Media Qwerty para móviles*/
 @media (max-width: 768px){
