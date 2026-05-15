@@ -33,6 +33,11 @@ gsap.timeline()
     duration: 0.5,
 }, 3.5
 );
+.to("card", {
+    opacity: 1,
+    duration: 0.5,
+}, 3.5
+);
 /* FIN INTRO*/
 
 const menuToggle = document.querySelector(".menu-toggle");
