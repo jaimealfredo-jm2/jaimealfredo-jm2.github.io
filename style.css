@@ -8,8 +8,13 @@ html{
   scroll-behavior: smooth;
 }
 
-
-body {
+body{
+    background: #030544;
+    color: #d6ecfa;
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+}
+/*body {
 font-family: 
 System-ui,
 -apple-system,
@@ -17,7 +22,7 @@ sans-serif;
 line-height: 1.6;
 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 min-height: 100vh;
-}
+}*/
 
 main{
     max-width: 800px;
