@@ -79,7 +79,7 @@ main{
 /* Menú Navegador */
 .menu-toggle span{
   width: 25px;
-  heigth: 3px;
+  height: 3px;
   background-color: #fff;
   display: block;
 }
