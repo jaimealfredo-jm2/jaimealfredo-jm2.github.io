@@ -18,6 +18,21 @@ line-height: 1.6;
 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 min-height: 100vh;
 }
+/*Intro Animation*/
+.preloader{
+    position: fixed;
+    inset: 0;
+    background: #030544;
+    display: grid;
+    place-items: center;
+    visibility: hidden ;
+}
+.logo{
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    perspective: 800px;
+}
 
 /* Navbar */
 .navbar {
@@ -35,10 +50,10 @@ min-height: 100vh;
   align-items: center;
 }
 
-.logo {
+/*.logo {
   font-size: 1.5rem;
   font-weigth: bold;
-}
+}*/
 
 .menu-toggle {
   display: none;
